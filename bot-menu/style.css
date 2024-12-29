@@ -1,0 +1,55 @@
+.container
+{
+    width: 400px;
+    color: white;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    padding: 20px 20px 20px 20px;
+}
+.background-image
+{
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 400px;
+}
+.bot-name
+{
+    font-size: large;
+    font-weight: 700;
+    text-align: justify;
+    display: block;
+    width: 70px;
+}
+.menu-title
+{
+    font-size: xx-large;
+    font-weight: 700;
+}
+.class
+{
+
+    border-radius: 5px;
+    width: fit-content;
+    padding: 15px 15px 15px 0px;
+    font-weight: 800;
+}
+.item
+{
+    background-color: rgba(0,0,0,0.1);
+    border-radius: 5px;
+    width: fit-content;
+    padding: 7px;
+    margin: 0px 5px 10px 0px;
+    display: inline-block;
+    font-weight: 800;
+}
+.icon
+{
+    position: relative;
+    top: 2px;
+    padding-right: 2px;
+}

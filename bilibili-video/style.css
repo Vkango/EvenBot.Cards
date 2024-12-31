@@ -1,0 +1,185 @@
+.dropshadow
+{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 37px;
+    opacity: 1;
+    background: linear-gradient(180deg, rgba(28, 42, 59, 0.52) 0%, rgba(1, 4, 5, 0) 100%);
+}
+.title
+{
+    position: absolute;
+    left: 36px;
+    top: 5px;
+    width: fit-content;
+    height: 16px;
+    opacity: 1;
+    font-family: Microsoft YaHei;
+    font-size: 12px;
+    font-weight: normal;
+    line-height: normal;
+    letter-spacing: 0em;
+    font-variation-settings: "opsz" auto;
+    color: #FFFFFF;
+}
+.watermark
+{
+    position: absolute;
+    top: 5px;
+    right: 15px;
+    opacity: 1;
+    font-family: Microsoft YaHei;
+    font-size: 12px;
+    font-weight: normal;
+    line-height: normal;
+    letter-spacing: 0em;
+    font-variation-settings: "opsz" auto;
+    color: rgba(255, 255, 255, 0.5);
+}
+.video-title
+{
+    position: absolute;
+    left: 14px;
+    top: 147px;
+    width: 272px;
+    height: 32px;
+    opacity: 1;
+    font-family: Microsoft YaHei;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: normal;
+    letter-spacing: 0em;
+    font-variation-settings: "opsz" auto;
+    color: #FFFFFF;
+}
+.video-cover
+{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 194px;
+    opacity: 1;
+    object-fit: cover;
+    mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+
+}
+.button-with-icon
+{
+    position: relative;
+    display: inline-block;
+    padding-right: 20px;
+}
+.button-with-icon img
+{
+    position: relative;
+    top: 4px;
+}
+.video-tags
+{
+    position: relative;
+    padding: 30px 10px;
+    bottom: 0px;
+}
+.tag
+{
+    position: relative;
+    padding: 4px 6px;
+    font-size: 9px;
+    color: white;
+    background-color: rgba(255,255,255,0.15);
+    border-radius: 10px;
+}
+.avatar
+{
+    position: absolute;
+    right: 15px;
+    top: 119px;
+    width: 60px;
+    height: 60px;
+    border-radius: 116px;
+    opacity: 1;
+    background: url(image.png);
+    box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.3);
+}
+.video-info-container
+{
+    position: absolute;
+    left: 0px;
+    top: 112px;
+    width: 100%;
+    height: calc(100% - 112px - 90px);
+    opacity: 1;
+    background: linear-gradient(180deg, rgba(208, 112, 0, 0) 0%, #432400 100%);
+
+    padding-top: 90px;
+}
+
+.icon
+{
+    position: relative;
+    left: 11px;
+    top: 6px;
+    width: 16px;
+    height: 16px;
+    opacity: 1;
+}
+.icon-user
+{
+    position: relative;
+    left: 18px;
+    top: 4px;
+    width: 16px;
+}
+.user-name
+{
+    position: relative;
+    display: inline-block;
+    left: 26px;
+    height: 16px;
+    opacity: 1;
+    font-family: Microsoft YaHei;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: normal;
+    letter-spacing: 0em;
+    font-variation-settings: "opsz" auto;
+    color: #FFFFFF;
+}
+.followers
+{
+    position: relative;
+    left: 30px;
+    border-radius: 120px;
+    opacity: 1;
+	width: fit-content;
+    background: rgba(216, 216, 216, 0.14);
+	padding: 3px 8px;
+    height: fit-content;
+    opacity: 1;
+    font-family: Microsoft YaHei;
+    font-size: 10px;
+    font-weight: bold;
+    line-height: normal;
+    color: rgba(255, 255, 255, 0.44);
+}
+.playcount-icon{
+    position: relative;
+    left: 19px;
+    width: 13.13px;
+    height: 11.13px;
+    opacity: 1;
+}
+.text-small{
+    position: absolute;
+    opacity: 1;
+    font-family: Microsoft YaHei;
+    font-size: 10px;
+    font-weight: normal;
+    line-height: normal;
+    letter-spacing: 0em;
+    font-variation-settings: "opsz" auto;
+    color: #FFFFFF;
+}
